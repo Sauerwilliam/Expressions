@@ -19,6 +19,8 @@ public class Program {
             int newX = Integer.parseInt(x);
             System.out.println(input.evaluate(newX));
             
+            
+            
         	
         }
         

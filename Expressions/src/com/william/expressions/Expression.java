@@ -15,6 +15,7 @@ public abstract class Expression {
         System.out.print("|");
         printMe(depth);
     }
+    
 
     public abstract void printMe(int depth);
 

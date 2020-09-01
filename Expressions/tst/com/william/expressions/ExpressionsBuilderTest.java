@@ -16,6 +16,7 @@ class ExpressionsBuilderTest {
 		assertEquals(new ConstantExpression(5), ExpressionBuilder.buildExpression("5"));
 	}
 	
+	
 	@Test
 	void testX() {
 		assertEquals(new VariableExpression(), ExpressionBuilder.buildExpression("x"));
