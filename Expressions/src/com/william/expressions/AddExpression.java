@@ -54,7 +54,7 @@ public class AddExpression extends Expression {
 
     public void printMe(int depth)
     {
-    	System.out.print("-- +");
+    	System.out.print("-- +\n");
         
         left.print(depth + 1);
         right.print(depth + 1);

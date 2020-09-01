@@ -55,7 +55,7 @@ public class MultiplyExpression extends Expression {
 
     public void printMe(int depth)
     {
-    	System.out.print("-- *");
+    	System.out.println("-- *");
         
         left.print(depth + 1);
         right.print(depth + 1);
