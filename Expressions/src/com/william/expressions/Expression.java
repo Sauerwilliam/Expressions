@@ -19,5 +19,8 @@ public abstract class Expression {
 
     public abstract void printMe(int depth);
 
-    public abstract int evaluate(int x);
+    public abstract double evaluate(double x);
+    
+    
+    
 }

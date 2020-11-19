@@ -20,4 +20,16 @@ public class VariableExpression extends Expression {
     	 return other instanceof VariableExpression;
      }
 
+
+	@Override
+	public double evaluate(double x) {
+		// TODO Auto-generated method stub
+		return x;
+	}
+
+
+	
+	
+     
+
 }

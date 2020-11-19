@@ -2,13 +2,18 @@ package com.william.expressions;
 
 public class ConstantExpression extends Expression {
 
-	 @Override
+
+
+	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + value;
+		long temp;
+		temp = Double.doubleToLongBits(value);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
 		return result;
 	}
+
 
 	@Override
 	public boolean equals(Object obj) {
@@ -19,19 +24,21 @@ public class ConstantExpression extends Expression {
 		if (getClass() != obj.getClass())
 			return false;
 		ConstantExpression other = (ConstantExpression) obj;
-		if (value != other.value)
+		if (Double.doubleToLongBits(value) != Double.doubleToLongBits(other.value))
 			return false;
 		return true;
 	}
 
-	private int value;
+	private double value;
 
-     public ConstantExpression(int newValue)
+     public ConstantExpression(double newValue)
      {
          value = newValue;
      }
+     
 
-     public int evaluate(int x)
+     @Override
+     public double evaluate(double x)
      {
          return value;
      }
@@ -45,4 +52,5 @@ public class ConstantExpression extends Expression {
 	public String toString() {
 		return "ConstantExpression [value=" + value + "]";
 	}
+
 }

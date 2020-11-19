@@ -9,9 +9,11 @@ public class DivideExpression extends Expression {
 	}
 
 	@Override
-	public int evaluate(int x) {
+	public double evaluate(double x) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+	
 
 }

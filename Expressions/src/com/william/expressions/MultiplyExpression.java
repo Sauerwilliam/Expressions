@@ -48,7 +48,7 @@ public class MultiplyExpression extends Expression {
         right = newRight;
     }
 
-    public int evaluate(int x)
+    public double evaluate(double x)
     {
         return left.evaluate(x) * right.evaluate(x);
     }
@@ -60,4 +60,5 @@ public class MultiplyExpression extends Expression {
         left.print(depth + 1);
         right.print(depth + 1);
     }
+    
 }
