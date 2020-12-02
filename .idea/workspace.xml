@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc12bb6e-d65a-4a19-a247-915b31f99246" name="Default Changelist" comment="Commiting Bananas">
+      <change afterPath="$PROJECT_DIR$/.idea/Expressions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/AlleyBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/Bananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/CityScape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/FullSpectrumRandomColorGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/GorillaBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/NumberOfColorsRandomGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/RandomColorGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/RoundTopBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bananas/TriangleTopBuilding.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l6owwyvF1K5VikHaKcL7wryCX2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bananas" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc12bb6e-d65a-4a19-a247-915b31f99246" name="Default Changelist" comment="" />
+      <created>1606927143653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606927143653</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commiting Bananas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting Bananas" />
+  </component>
+</project>
